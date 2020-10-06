@@ -1,9 +1,25 @@
-$body-color: blue;
+.container-fluid {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-body {
-  background-color: $body-color;
+header {
+  background: url('images/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
 
-  div {
-    background-color: red;
+  .showcase {
+    min-height: 600px;
+    max-height: 100vh;
+
+    .showcase-text {
+      background-color: rgba(0, 0, 0, 0.425);
+      color: #fff;
+      text-shadow: 1px 1px 1px rgba(183, 183, 183, 1);
+
+      h1 {
+        font-size: 48px;
+      }
+    }
   }
 }
