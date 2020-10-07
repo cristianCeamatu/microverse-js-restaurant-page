@@ -50,17 +50,16 @@ function getElement(string, state) {
   }
 }
 
-function switchTab({
-  target,
-}, state) {
+function switchTab(e, state) {
+  e.preventDefault();
   const element = document.createElement('div');
-  element.appendChild(getElement(target.textContent, state));
+  element.appendChild(getElement(e.target.textContent, state));
 
   document.querySelector('#main-content').innerHTML = '';
   document.querySelector('#main-content').appendChild(element);
 
   document.querySelectorAll('.nav-link.active').forEach(el => el.classList.remove('active'));
-  target.classList.add('active');
+  e.target.classList.add('active');
 }
 
 function addListeners(state) {
