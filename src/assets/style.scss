@@ -23,3 +23,14 @@ header {
     }
   }
 }
+
+main {
+  article {
+    min-width: 300px;
+    max-width: 450px;
+  }
+}
+
+.nav-item .nav-link.active {
+  background-color:#17a2b8;
+}
