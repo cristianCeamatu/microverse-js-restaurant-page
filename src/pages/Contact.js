@@ -1,8 +1,9 @@
-import '../assets/style.scss';
+import '../assets/contact.scss';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
+import ContactForm from '../components/ContactForm';
 
 export default function component() {
   const element = document.createElement('div');
@@ -17,6 +18,7 @@ export default function component() {
 
   element.appendChild(Nav());
   element.appendChild(Header(state.header));
+  element.appendChild(ContactForm());
   element.appendChild(Footer());
 
   return element;

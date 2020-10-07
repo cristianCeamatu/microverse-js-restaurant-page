@@ -1,5 +1,6 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/style.scss';
 
 import Home from './pages/Home';
 import Menu from './pages/Menu';
