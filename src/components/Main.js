@@ -7,7 +7,9 @@ export default function component(articles) {
     <main>
       <div class="container-fluid">
         <div class="my-5 p-2 articles-container d-flex align-items-center justify-content-center flex-wrap">
-          ${[...articles.map(title => Article(title).outerHTML)]}
+          ${Article(articles[0]).outerHTML}
+          ${Article(articles[1]).outerHTML}
+          ${Article(articles[2]).outerHTML}
         </div>
       </div>
     </main>
