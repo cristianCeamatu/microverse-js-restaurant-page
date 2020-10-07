@@ -1,4 +1,9 @@
-export default function component({ title, subtitle }) {
+export default function component({
+  header: {
+    title,
+    subtitle,
+  },
+}) {
   const element = document.createElement('header');
 
   element.innerHTML = `

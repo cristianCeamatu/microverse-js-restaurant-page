@@ -1,3 +1,6 @@
+import '../assets/contact.scss';
+
+
 export default function component() {
   const element = document.createElement('form');
   element.className = 'mx-auto shadow rounded my-5 p-5';
