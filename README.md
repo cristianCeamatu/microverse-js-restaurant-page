@@ -14,7 +14,7 @@
 
 ## Screenshots of the app.
 
-![image](.github/app-screenshot.png)
+![image](.github/app-screenshot1.png)
 
 ## Built With
 
@@ -47,7 +47,3 @@ If you've read this far....give us a ⭐️!
 ## 📝 License
 
 This project is licensed by Microverse and the Odin Project
-
-## Acknowledgement
-
-- Design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
