@@ -13,7 +13,7 @@ import ContactForm from './components/ContactForm';
 const state = {
   articles: ['Cheap prices', 'Michelin Stars', 'Takeaway'],
   header: {
-    title: 'Welcome the Microverse Restaurant',
+    title: 'Welcome to the Microverse Restaurant',
     subtitle: 'A place where you will always want to come back',
   },
 };
