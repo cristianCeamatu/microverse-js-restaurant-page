@@ -3,6 +3,18 @@
   margin: 0 auto;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  .nav-item .nav-link.active {
+    background-color:#17a2b8;
+  }
+}
+
 header {
   background: url('images/showcase.jpg');
   background-repeat: no-repeat;
@@ -29,8 +41,4 @@ main {
     min-width: 300px;
     max-width: 450px;
   }
-}
-
-.nav-item .nav-link.active {
-  background-color:#17a2b8;
 }

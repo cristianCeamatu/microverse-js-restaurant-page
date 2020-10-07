@@ -1,4 +1,4 @@
-import Article from './_Article';
+import Article from './Article';
 
 export default function component(articles) {
   const element = document.createElement('main');

@@ -1,11 +1,9 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './assets/style.scss';
-
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import Contact from './pages/Contact';
 
 function component() {
   const element = document.createElement('div');
@@ -18,10 +16,9 @@ function component() {
     },
   };
 
-  element.appendChild(Header(state.header));
-  element.appendChild(Main(state.articles));
-  element.appendChild(Footer());
-
+  element.appendChild(Home(state));
+  element.appendChild(Menu(state));
+  element.appendChild(Contact(state));
   return element;
 }
 
