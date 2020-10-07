@@ -10,7 +10,7 @@
 
 - Users can visit the home, menu and contact pages
 
-## This web app is live, you can check it here: [Live demo](https://rails-bible-talks.herokuapp.com/)
+## This web app is live, you can check it here: [Live demo](https://cristianceamatu.github.io/microverse-js-restaurant-page/)
 
 ## Screenshots of the app.
 
