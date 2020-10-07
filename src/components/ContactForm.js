@@ -1,9 +1,9 @@
 export default function component() {
   const element = document.createElement('form');
-  element.className = 'mx-auto shadow rounded my-5 p-4';
+  element.className = 'mx-auto shadow rounded my-5 p-5';
 
   element.innerHTML = `
-    <div class="container-fluid">
+    <div class="container-fluid my-5">
       <div class="form-group">
         <label for="fullname">Full name</label>
         <input type="email" class="form-control" id="fullname" aria-describedby="emailHelp" placeholder="Enter full name">

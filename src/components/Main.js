@@ -10,6 +10,9 @@ export default function component(articles) {
           ${Article(articles[0]).outerHTML}
           ${Article(articles[1]).outerHTML}
           ${Article(articles[2]).outerHTML}
+          ${Article(articles[0]).outerHTML}
+          ${Article(articles[1]).outerHTML}
+          ${Article(articles[2]).outerHTML}
         </div>
       </div>
     </main>
